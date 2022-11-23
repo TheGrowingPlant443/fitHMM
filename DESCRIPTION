@@ -1,0 +1,20 @@
+Package: fitHMM
+Type: Package
+Title: Fit and Work with Hidden Markov Models
+Version: 0.1.0
+Authors@R: c(person("Pi", "Madsen", "Vejsig", role=c("aut")),
+  person("Martin", "Brodersen", "Christian", role=c("aut")),
+  person("Thomas", "Kuhlwein", , "kuhlwein@ph.au.dk", role=c("aut", "cre")))
+Description: This package can estimate parameters of Hidden Markov Models (HMM) through both the EM-algorithm and numerical optimization, and includes functions for decoding and forecasting.
+    Furthermore functions to evaluate the fit are included.
+License:MIT + file LICENSE
+Imports: ggplot2, reshape2, expm
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr

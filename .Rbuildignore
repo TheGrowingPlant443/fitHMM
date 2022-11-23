@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^trying_out_package$
+^data-raw$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^LICENSE\.md$

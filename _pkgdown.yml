@@ -1,0 +1,52 @@
+url: ~
+template:
+  bootstrap: 5
+
+navbar:
+ components:
+  reference:
+   text: Functions
+   menu:
+   - text: Constructing Objects
+   - text: HMM object
+     href: reference/HMM.html
+   - text: xHMM object
+     href: reference/xHMM.html
+   - text: -------
+   - text: Fitting Objects
+   - text: EM algorithm for HMM Object
+     href: reference/HMM_EM.html
+   - text: Numeric Estimation of HMM Object
+     href: reference/nlm_hmm.html
+   - text: Easy fitting HMM object to n states
+     href: reference/Nstate_HMM.html
+   - text: Make HMM stationary
+     href: reference/Stationary.html
+   - text: Forward-Backward Algorithm 
+     href: reference/ForwardBackwardAlgorithm.html
+   - text: -------
+   - text: Model Checking and Decoding
+   - text: AIC and BIC of HMM and xHMM Objects
+     href: reference/AICBIC.html
+   - text: AIC and BIC for n states of HMM
+     href: reference/Nstates_AICBIC.html
+   - text: Local Decoding
+     href: reference/Local_decoding.html
+   - text: Local Decoding with Scaling
+     href: reference/Local_decoding_with_scaling.html
+   - text: State Prediction
+     href: reference/State_prediction.html
+   - text: Viterbi Algorithm 
+     href: reference/Viterbi.html
+   - text: -------
+   - text: Is functions
+   - text: Is Bernoulli?
+     href: reference/is.BernoullHMM.html
+   - text: Is HMM?
+     href: reference/is.HMM.html
+   - text: Is Normal?
+     href: reference/is.NormalHMM.html
+   - text: Is Poisson?
+     href: reference/is.PoissonHMM.html
+   - text: Is xHMM?
+     href: reference/is.xHMM.html
